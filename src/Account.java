@@ -5,6 +5,8 @@ public abstract class Account {
     int amount;
 
 
+
+
     public void Deposit(int depositAmount) {
         amount = amount + depositAmount;
     }
